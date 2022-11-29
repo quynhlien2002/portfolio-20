@@ -2,7 +2,7 @@ import React from 'react';
 
 function Portfolio() {
     return(
-        <section class="portfolio">
+        <section class="portfolio" id='portfolio'>
         <h1 class="about">My Projects</h1>
         <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <ol class="carousel-indicators">

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Contact() {
     return (
-        <section>
+        <section id='contact'>
         <h1 class="about">Contact Me</h1>
         <div class="input-group mb-3">
             <input type="text" class="form-control" placeholder="Name" aria-label="Username" aria-describedby="basic-addon1"/>

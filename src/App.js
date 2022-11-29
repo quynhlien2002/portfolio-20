@@ -5,7 +5,7 @@ import Contact from '../src/components/Contact';
 import Portfolio from '../src/components/Portfolio';
 import Resume from '../src/components/Resume';
 import './App.css';
-import './index.css';
+
 
 function App() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -36,6 +36,7 @@ function App() {
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
     </div>
+    
   );
 }
 

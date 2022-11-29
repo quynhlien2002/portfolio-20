@@ -44,7 +44,33 @@ nav{
   background-color: rgb(214, 200, 200);
   color: black;
   border-color: white;
+  margin-left: 43%;
 }
 
+.description {
+  margin-left: 100px;
+  margin-right: 100px;
+}
 
+.about-me{
+  margin-top: 200px;
+}
+
+.portfolio{
+  margin-top: 100px;
+}
+
+#contact{
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#resume{
+  margin-top: 200px;
+}
+
+.label{
+  color: white;
+}
 

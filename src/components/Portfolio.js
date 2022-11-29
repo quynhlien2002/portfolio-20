@@ -1,4 +1,7 @@
 import React from 'react';
+import music from '../assets/music-wordle.png';
+import bark from '../assets/bark-movie.png';
+import weather from '../assets/Weather-forecast.png';
 
 function Portfolio() {
     return(
@@ -12,13 +15,13 @@ function Portfolio() {
               </ol>
             <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
-                <a href='https://github.com/nhanng19/music_wordle'><img class="d-block w-100" src="./assets/music-wordle.png?auto=yes&bg=666&fg=444&text=First slide" alt="First slide"/></a>
+                <a href='https://github.com/nhanng19/music_wordle'><img class="d-block w-100" src={music} alt="First slide"/></a>
               </div>
               <div class="carousel-item">
-                <a href='https://github.com/aurorayihe/Project2_team10'><img class="d-block w-100" src="./assets/bark-movie.png?auto=yes&bg=666&fg=444&text=Second slide"  alt="Second slide"/></a>
+                <a href='https://github.com/aurorayihe/Project2_team10'><img class="d-block w-100" src={bark} alt="Second slide"/></a>
               </div>
               <div class="carousel-item ">
-                <a href='https://github.com/quynhlien2002/Challenge-6'><img class="d-block w-100" src="./assets/Weather-forecast.png?auto=yes&bg=666&fg=444&text=Third slide"  alt="Third slide"/></a>
+                <a href='https://github.com/quynhlien2002/Challenge-6'><img class="d-block w-100" src={weather} alt="Third slide"/></a>
               </div>
             </div>
             <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
